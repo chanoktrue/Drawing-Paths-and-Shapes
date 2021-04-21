@@ -11,6 +11,7 @@
 		CDE2E537262FE22B000FEC04 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE2E536262FE22B000FEC04 /* ContentView.swift */; };
 		CDE2E539262FE22F000FEC04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE2E538262FE22F000FEC04 /* Assets.xcassets */; };
 		CDE2E53C262FE22F000FEC04 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE2E53B262FE22F000FEC04 /* Preview Assets.xcassets */; };
+		CDE2E545262FE286000FEC04 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE2E544262FE286000FEC04 /* HexagonParameters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		CDE2E538262FE22F000FEC04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDE2E53B262FE22F000FEC04 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CDE2E53D262FE22F000FEC04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDE2E544262FE286000FEC04 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				CDE2E534262FE22B000FEC04 /* DrawingPathsAndShapesApp.swift */,
 				CDE2E536262FE22B000FEC04 /* ContentView.swift */,
+				CDE2E544262FE286000FEC04 /* HexagonParameters.swift */,
 				CDE2E538262FE22F000FEC04 /* Assets.xcassets */,
 				CDE2E53D262FE22F000FEC04 /* Info.plist */,
 				CDE2E53A262FE22F000FEC04 /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDE2E545262FE286000FEC04 /* HexagonParameters.swift in Sources */,
 				CDE2E537262FE22B000FEC04 /* ContentView.swift in Sources */,
 				CDE2E535262FE22B000FEC04 /* DrawingPathsAndShapesApp.swift in Sources */,
 			);
